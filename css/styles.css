@@ -1,0 +1,191 @@
+/*h3 {
+    font-style:italic;
+    color:blue;
+  }
+  */
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../fira-sans/FiraSans-Bold.otf');
+
+}
+
+
+
+thead {
+  background-color: #00AAFF;
+}
+
+tbody tr:nth-child(2n+1) {
+  background-color: white;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #CCC;
+}
+
+body {
+  background-color: #838892;
+  max-width: 600px;
+  line-height: 150%;
+  width: 100%;
+  margin: auto;
+
+}
+
+/*
+TABLEAUX
+*/
+table {
+  text-align: center;
+}
+
+table .skill {
+  color: #640051;
+}
+
+.pair {
+  background-color: #5bbdbf;
+}
+
+.impair {
+  background-color: #ff5850;
+}
+
+/*
+LIENS
+*/
+
+a:visited {
+  color: #08f;
+}
+
+a:hover {
+  color: orange;
+}
+
+a {
+  text-decoration: underline;
+  padding-inline: 10px;
+  border-left: 2px;
+  border-left-style: solid;
+}
+
+a:first-child{
+  border-left-width: 0px;
+  border-left-style: hidden;
+}
+
+/*
+IMAGES
+*/
+#imgBeware {
+  max-height: 300px;
+  float: right;
+}
+
+img:not(.rs){
+  margin-right: 5px;
+}
+
+#Chuck_Young {
+  float: left;
+  max-height: 150px;
+}
+
+img.rs{
+  position: sticky;
+  display: list-item;
+  bottom: 15px;
+  right: 16px;
+}
+
+/*
+MENU DEROULANT
+*/
+nav>* {
+  align-items: center;
+}
+nav{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+nav div{
+  width: 150px;
+}
+
+nav>div{
+  background-color: #5BBDBF;
+  padding-inline: 20px;
+}
+
+
+nav a{
+  background-color: #c0d5c2;
+}
+
+#menuderoulant{
+  width: 80%;
+  margin-inline: auto;
+  margin-block: 2px;
+}
+
+.submenu{
+  position : absolute;
+  border-top: 55px;
+  border-left: 0px;
+  background-color: #aca;
+  display: none;
+}
+
+div#Accueil>a:hover+.submenu , div#Contact>a:hover+.submenu {
+  display: block;
+}
+
+
+/* 
+Autres
+*/
+
+article+aside{
+  max-width: 500px;
+  min-width: 250px; 
+}
+
+.skill {
+  color: red;
+  font-style: italic;
+}
+
+
+h2 {
+  font-family: 'FiraSans';
+
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+h3 {
+  border: 1px;
+  border-style: solid;
+  border-color: #CCCCCC;
+}
+
+.skill:not(p) {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#paragraphe_Jeune{
+  clear: left;
+}
+
+p {
+  text-indent: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
